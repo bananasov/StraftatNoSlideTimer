@@ -8,3 +8,7 @@ export STRAFTAT_REFERENCES := "C:\\Program Files (x86)\\Steam\\steamapps\\common
 # Build the project
 build *FLAGS:
     dotnet build {{FLAGS}}
+
+
+gen-changelog:
+    git cliff --exclude-path "CHANGELOG.md" -o .\CHANGELOG.md

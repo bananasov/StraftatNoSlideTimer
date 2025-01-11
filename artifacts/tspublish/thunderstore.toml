@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "bananasov"
 name = "NoSlideTimer"
-versionNumber = "1.1.0"
+versionNumber = "1.1.1"
 description = "Disabled the slide timer in STRAFTAT"
 websiteUrl = "https://github.com/bananasov/StraftatNoSlideTimer"
 containsNsfwContent = false

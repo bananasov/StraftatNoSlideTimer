@@ -11,6 +11,8 @@ containsNsfwContent = false
 
 [package.dependencies]
 BepInEx-BepInExPack = "5.4.2100"
+bananasov-DetourContext_Dispose_Fix = "1.0.3"
+bananasov-AutoHookGenPatcher = "1.0.4"
 
 [build]
 icon = "./icon.png"

@@ -6,7 +6,7 @@ alias b := build
 export STRAFTAT_REFERENCES := "C:\\Program Files (x86)\\Steam\\steamapps\\common\\STRAFTAT\\STRAFTAT_Data\\Managed"
 
 gen-changelog:
-    git cliff --exclude-path "CHANGELOG.md" -o .\CHANGELOG.md
+    git cliff --bump --exclude-path "CHANGELOG.md" -o .\CHANGELOG.md
 
 # Build the project
 build *FLAGS:
@@ -14,3 +14,6 @@ build *FLAGS:
 
 package: (build "-c Release")
     tcli build --config-path .\artifacts\tspublish\thunderstore.toml
+
+publish: package
+    tcli publish --config-path .\artifacts\tspublish\thunderstore.toml

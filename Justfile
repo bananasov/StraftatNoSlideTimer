@@ -17,4 +17,4 @@ publish:
 
 # Generate the changelog for a new version
 gen-changelog tag:
-    git cliff --tag {{tag}} --exclude-path "./CHANGELOG.md" --prepand "./CHANGELOG.md" -o CHANGELOG.md
+    git cliff -u --tag {{tag}} --exclude-path "./CHANGELOG.md" --prepend CHANGELOG.md

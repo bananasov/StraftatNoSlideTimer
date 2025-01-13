@@ -1,0 +1,31 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "bananasov"
+name = "NoSlideTimer"
+versionNumber = "2.0.0"
+description = "Disabled the slide timer in STRAFTAT"
+websiteUrl = "https://github.com/bananasov/StraftatNoSlideTimer"
+containsNsfwContent = false
+
+[package.dependencies]
+BepInEx-BepInExPack = "5.4.2100"
+bananasov-DetourContext_Dispose_Fix = "1.0.3"
+bananasov-AutoHookGenPatcher = "1.0.4"
+
+[build]
+icon = "./icon.png"
+outdir = "./"
+readme = "../README.md"
+
+[[build.copy]]
+source = "./dist"
+target = ""
+
+[publish]
+communities = ["straftat"]
+repository = "https://thunderstore.io"
+
+[publish.categories]
+straftat = ["mods"]

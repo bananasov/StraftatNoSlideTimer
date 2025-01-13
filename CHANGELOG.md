@@ -1,5 +1,20 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
+
+---
+## [2.0.0](https://github.com/bananasov/StraftatNoSlideTimer/compare/1.2.0..2.0.0) - 2025-01-13
+
+### Bug Fixes
+
+- Fix gen-changelog command - ([f39f558](https://github.com/bananasov/StraftatNoSlideTimer/commit/f39f55838d53677da05d8953158c741db92b70a3)) - sovnya
+
+### Features
+
+- Rewrite the entire thing. (#2) - ([89405a6](https://github.com/bananasov/StraftatNoSlideTimer/commit/89405a64d5624e26a3a308c29143d5ec1e29fb9e)) - bananasov
+
+# Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),

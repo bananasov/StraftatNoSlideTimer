@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [2.1.0](https://github.com/bananasov/StraftatNoSlideTimer/compare/2.0.0..2.1.0) - 2025-01-13
+
+### Bug Fixes
+
+- I HATE GIT - ([8c0bde2](https://github.com/bananasov/StraftatNoSlideTimer/commit/8c0bde2d2b3778e33789d6f9b169fd96913a9412)) - sovnya
+
+# Changelog
+
+All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
+
+---
 ## [2.0.0](https://github.com/bananasov/StraftatNoSlideTimer/compare/1.2.0..2.0.0) - 2025-01-13
 
 ### Bug Fixes

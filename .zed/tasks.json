@@ -1,0 +1,29 @@
+// Static tasks configuration.
+//
+// Example:
+[
+  {
+    "type": "process",
+    "label": "just: Package Plugin",
+    "command": "just",
+    "args": ["package"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "reveal_target": "dock",
+    "hide": "never",
+    "shell": "system"
+  },
+  {
+    "type": "process",
+    "label": "just: Deploy Plugin",
+    "command": "just",
+    "args": ["deploy"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "reveal_target": "dock",
+    "hide": "never",
+    "shell": "system"
+  }
+]

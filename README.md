@@ -2,7 +2,6 @@
 
 Disabled the slide timer in STRAFTAT
 
-
 ## Installation
 
 ### Automatic

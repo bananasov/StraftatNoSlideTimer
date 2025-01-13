@@ -25,5 +25,17 @@
     "reveal_target": "dock",
     "hide": "never",
     "shell": "system"
+  },
+  {
+    "type": "process",
+    "label": "just: Publish Plugin",
+    "command": "just",
+    "args": ["publish"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "reveal_target": "dock",
+    "hide": "never",
+    "shell": "system"
   }
 ]

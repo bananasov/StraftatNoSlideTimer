@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StraftatNoSlideTimer", "src/StraftatNoSlideTimer/StraftatNoSlideTimer.csproj", "{C0E3FA37-2EA5-46FC-970E-CA0E09A19F56}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD8FDEF3-3CDD-4098-883E-FFCB53720284}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StraftatNoSlideTimer", "src\StraftatNoSlideTimer\StraftatNoSlideTimer.csproj", "{D0FBB9AA-B1F0-4759-B610-7B05475C6610}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0E3FA37-2EA5-46FC-970E-CA0E09A19F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0E3FA37-2EA5-46FC-970E-CA0E09A19F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0E3FA37-2EA5-46FC-970E-CA0E09A19F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0E3FA37-2EA5-46FC-970E-CA0E09A19F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FBB9AA-B1F0-4759-B610-7B05475C6610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FBB9AA-B1F0-4759-B610-7B05475C6610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FBB9AA-B1F0-4759-B610-7B05475C6610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FBB9AA-B1F0-4759-B610-7B05475C6610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0FBB9AA-B1F0-4759-B610-7B05475C6610} = {CD8FDEF3-3CDD-4098-883E-FFCB53720284}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DFF3795A-C8CC-4F01-92DF-BC14E3E1BED0}
+		SolutionGuid = {92F6D475-68F0-44D6-A1AF-A28F5948E381}
 	EndGlobalSection
 EndGlobal

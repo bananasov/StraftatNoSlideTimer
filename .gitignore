@@ -223,3 +223,9 @@ node_modules/
 # End of https://www.toptal.com/developers/gitignore/api/csharp
 artifacts/*/dist/**/*
 artifacts/**/*.zip
+<<<<<<< HEAD
+=======
+*.txt
+artifacts/**
+Config.Build.user.props
+>>>>>>> c6b2d3b (feat: Rewrite to use Obenseuer BepInEx template instead of LCM)
